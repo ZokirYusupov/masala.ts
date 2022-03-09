@@ -1,3 +1,4 @@
+import { type } from "os";
 import PromptSync from "prompt-sync";
 const prompt = PromptSync();
 
@@ -141,3 +142,46 @@ console.log(arr.includes(x));
 console.log(arr.indexOf(x) > -1);
 
 */
+
+// Car object
+
+// type Car = {
+//    name: string,
+//    countryNumber: string,
+//    year: number,
+//    km: number,
+//    mator: Mator
+// }
+
+// type Mator = {
+//    otKuch: number,
+//    benzin: number
+// }
+
+// const carObject: Car = {
+//    name: 'Nexia 2',
+//    countryNumber: 'AAA8909',
+//    year: 2016,
+//    km: 9000,
+//    mator: {
+//       otKuch: 78,
+//       benzin: 60
+//    }
+// }
+// console.log(carObject);
+
+// Car object
+
+type Room = {
+   fan: string,
+   sinf: string,
+   oquvchilar: string[],
+   rahbar: string,
+}
+
+const roomObj: Room = {
+   fan: 'Matem',
+   sinf: '11A',
+   oquvchilar: ['sds'],
+   rahbar: 'a',
+}
