@@ -1,10 +1,6 @@
-"use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-const prompt_sync_1 = __importDefault(require("prompt-sync"));
-const prompt = (0, prompt_sync_1.default)();
+import PromptSync from "prompt-sync";
+const prompt = PromptSync();
+
 /* -------------------- 1 ---------------------------
 
 let numbersArray: number[] = [-1,0,3,4,25,26];
@@ -26,6 +22,7 @@ for (const element of numbersArray) {
 }
 
 */
+
 /* -------------------- 2 ---------------------------
 
 let numbers: number[] = [1,12,-31];
@@ -58,6 +55,7 @@ for (const n of numbers) {
 }
 
 */
+
 /* -------------------- 3 ---------------------------
 
 let number: number | string = 348597 + '';
@@ -80,6 +78,8 @@ for(const digit of num){
 console.log(digits);
 
 */
+
+
 /* -------------------- 4 ---------------------------
 
 let words: string = 'test';
@@ -108,6 +108,7 @@ else {
 }
 
 */
+
 /* -------------------- 5 ---------------------------
 
 let arr: (string | number)[] = ['t', 'e'];

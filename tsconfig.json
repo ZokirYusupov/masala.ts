@@ -4,7 +4,7 @@
   ],
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig.json to read more about this file */
-    "rootDir": "desc",
+    "rootDir": "src",
     "outDir": "out",
     /* Projects */
     // "incremental": true,                              /* Enable incremental compilation */
